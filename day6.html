@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  ul li:first child{
+    background-color: aqua;
+  }
+  ul li:nth-child(3){
+    background-color: blanchedalmond;
+  }
+</style>
+<style>
+  ::selection{
+    background-color: chartreuse;
+    color: aqua;
+  }
+</style>
+<style>
+  #para::first-line{
+    background-color: rgb(7, 121, 222);
+    color: brown;
+   font-size: larger;
+  }
+</style>
+<style>
+  #para::before{
+    background-color: black;
+    font-size: larger;
+    content: "hello";
+    padding: 2px;
+  }
+</style>
+</head>
+
+
+
+<body>
+<ul>
+  
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+  <li>item 4</li>
+  <li>item 5</li>
+  <li>item 6</li>
+  <li>item 7</li>
+</ul>
+<ul>
+  <li>list 1</li>
+  <li>list 2</li>
+  <li>list 3</li>
+</ul>
+<p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vero nemo rerum delectus. Ducimus cupiditate magni explicabo sunt quae neque tenetur quibusdam voluptate iste perspiciatis eaque molestias, illum dicta id.</p>
+
+
+ 
+  
+</body>
+</html>
